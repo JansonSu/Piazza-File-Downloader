@@ -5,7 +5,10 @@ This is a python-based program that can easily download files on piazza at one t
 ![image](https://github.com/JansonSu/Piazza-Files-Downloader/assets/137122140/02b266f4-9abc-4bdf-b8a3-7b8ca269e058)
 
 ******
-
+|Author|Zijian Su|
+|---|---
+|Date|07/17/2023
+******
 ## Contents <br>
 * [Required environment](#required-environment)
 * [User guide](#user-guide)
@@ -36,7 +39,9 @@ This is a python-based program that can easily download files on piazza at one t
 Note: please download the chromedriver with the same version as Google Chrome  
 If it doesn't work, try putting chromedriver.exe in the Scripts folder where your python is installed
 ********
-## User guide 
+## User guide  
+If you can't log in, or experience other problems, check your network. Another possible reason is that piazza modified their webpage.
+
 ### Method 1 Run the exe file inside the zip directly  
 Download PaizzaFileDownloader.zip to your computer and unzip it.   
 Find FileDownloader.exe and double-click it to run it.  
