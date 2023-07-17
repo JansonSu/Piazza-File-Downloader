@@ -11,8 +11,8 @@ This is a python-based program that can easily download files on piazza at one t
 * [User guide](#user-guide)
   
 ********
-
-### Required environment 
+## Required environment 
+********
 **Python version**：3.7 
 * Download Python: https://www.python.org/
 
@@ -36,7 +36,7 @@ This is a python-based program that can easily download files on piazza at one t
 Note: please download the chromedriver with the same version as Google Chrome  
 If it doesn't work, try putting chromedriver.exe in the Scripts folder where your python is installed
 ********
-### User guide 
+## User guide 
 ********
 Please put chromedriver in the same directory as FileDownloader.py
 
