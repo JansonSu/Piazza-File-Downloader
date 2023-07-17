@@ -2,6 +2,7 @@ Piazza Files Downloader
 ======
 This is a python-based program that can easily download files on piazza at one time
 
+![](https://github.com/JansonSu/Piazza-Files-Downloader/blob/main/readme_pictures/1.png?raw=true）
 ******
 
 ## Contents <br>
