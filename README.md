@@ -46,4 +46,21 @@ Then you will see this interface：
 ![image](https://github.com/JansonSu/Piazza-Files-Downloader/assets/137122140/02b266f4-9abc-4bdf-b8a3-7b8ca269e058)  
   
 Enter the edu email address and password used when registering piazza, and press the login button to log in.   
-When you log in successfully, you will see a prompt
+When you log in successfully, you will see a prompt like follow：  
+![image](https://github.com/JansonSu/Piazza-Files-Downloader/assets/137122140/09adb36a-f7b3-4437-a604-0f8a5c91b801)  
+  
+Then, you can select a course and click the Get Resource Section button:  
+![image](https://github.com/JansonSu/Piazza-Files-Downloader/assets/137122140/70d67a12-ce93-40dc-b426-34b6e99f1a78)  
+  
+![image](https://github.com/JansonSu/Piazza-Files-Downloader/assets/137122140/ddc4dfd6-2027-4e96-893a-b9c1e515d691)
+  
+Now, select the section you need to download.  
+![image](https://github.com/JansonSu/Piazza-Files-Downloader/assets/137122140/3f08f24c-1b89-4f11-be7d-dc431bde664c)  
+  
+Click the download button and your file will be downloaded to a folder named after your course, which can be found on the desktop.  
+![image](https://github.com/JansonSu/Piazza-Files-Downloader/assets/137122140/008191a7-dce8-463e-9b35-3ba41c45003c)
+  
+When you need to exit the program, click the quit button to exit.
+
+
+
