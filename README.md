@@ -37,7 +37,13 @@ Note: please download the chromedriver with the same version as Google Chrome
 If it doesn't work, try putting chromedriver.exe in the Scripts folder where your python is installed
 ********
 ## User guide 
+### Method 1 Run the exe file inside the zip directly  
+Download PaizzaFileDownloader.zip to your computer and unzip it.   
+Find FileDownloader.exe and double-click it to run it.  
+I use pyinstaller to package my program. You should be able to run directly.
+If you can't run it, it may be because the version of chromedriver is different from your Google chrome version, try to download the same version of chromedriver, put it in the same directory as the exe file, and overwrite the old chromedriver.  
 
+### Method 2 Use python to run  
 Please put chromedriver in the same directory as FileDownloader.py
 
 After you have successfully installed the libraries required to run，  
