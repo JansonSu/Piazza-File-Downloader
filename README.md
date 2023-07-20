@@ -42,7 +42,7 @@ If it doesn't work, try putting chromedriver.exe in the Scripts folder where you
 ## User guide  
 If you can't log in, or experience other problems, check your network. Another possible reason is that piazza modified their webpage.
 
-### Method 1 Run the exe file inside the zip directly  
+### Method 1 Run the exe file directly 
 Download PaizzaFileDownloader.zip to your computer and unzip it.   
 Find FileDownloader.exe and double-click it to run it.  
 I use pyinstaller to package my program. You should be able to run directly.
