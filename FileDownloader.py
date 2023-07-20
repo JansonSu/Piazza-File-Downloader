@@ -1,3 +1,12 @@
+"""
+    This is a python-based program that can easily download files on piazza at one time
+
+    Author: Zijian Su
+    date: 7/17/2023
+
+"""
+
+
 import requests
 import mimetypes
 import os
