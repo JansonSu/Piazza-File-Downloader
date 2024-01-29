@@ -1,12 +1,3 @@
-"""
-    This is a python-based program that can easily download files on piazza at one time
-
-    Author: Zijian Su
-    date: 7/17/2023
-
-"""
-
-
 import requests
 import mimetypes
 import os
@@ -106,7 +97,7 @@ class PiazzaFileDownloader:
             N/A
         """
         # set webdriver
-        service = Service(executable_path="PATH_TO_DRIVER")
+        service = Service(executable_path="/chromedriver.exe")
 
         chrome_options = Options()
         chrome_options.add_argument('--headless')
@@ -115,7 +106,9 @@ class PiazzaFileDownloader:
         chrome_options.add_argument("--disable-dev-shm-usage")
         chrome_options.add_argument("--disable-infobars")
         chrome_options.add_argument("--silent")
-        self.driver = webdriver.Chrome(options=chrome_options, service=service)
+        self.driver = webdriver.Chrome(options=chrome_options)
+
+        #self.driver = webdriver.Chrome()
         sys.stdout = open(os.devnull, 'w')
         sys.stderr = open(os.devnull, 'w')
 
@@ -160,7 +153,10 @@ class PiazzaFileDownloader:
 
             except Exception:
                 self.window['-OUTPUT-'].print('Login failed')
+                self.driver.get('data:,')
                 self.window['-LOGIN-'].update(disabled=False)
+                self.window['-QUIT-'].update(disabled=False)
+                return
 
             if GetIn == 0:
                 self.window['-DOWNLOAD-'].update(disabled=True)
@@ -182,7 +178,8 @@ class PiazzaFileDownloader:
                 dropdown_button.click()
                 dropdown_menu.click()
         except Exception:
-            self.window['-OUTPUT-'].print('■■■■\nLogin failed')
+            self.window['-OUTPUT-'].print('noooo■■■■\nLogin failed')
+            self.driver.get('data:,')
             self.window['-LOGIN-'].update(disabled=False)
         self.window['-QUIT-'].update(disabled=False)
 
